@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 sudo systemctl daemon-reload
 sudo rm -f /etc/nginx/sites-enabled/default

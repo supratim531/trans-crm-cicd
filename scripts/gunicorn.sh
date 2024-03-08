@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 sudo cp /home/ubuntu/trans-crm-cicd/gunicorn/gunicorn.socket  /etc/systemd/system/gunicorn.socket
 sudo cp /home/ubuntu/trans-crm-cicd/gunicorn/gunicorn.service  /etc/systemd/system/gunicorn.service
