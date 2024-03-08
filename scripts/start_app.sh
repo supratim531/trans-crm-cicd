@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["65.0.74.216"]/' /home/ubuntu/trans-crm-cicd/users/settings.py
+sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/trans-crm-cicd/users/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
