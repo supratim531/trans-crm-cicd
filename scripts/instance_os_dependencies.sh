@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
-sudo apt install -y python3-pip
-sudo apt install -y nginx
 sudo apt install -y virtualenv
+sudo apt install -y python3-pip nginx curl
+sudo apt-get install -y libmysqlclient-dev pkg-config

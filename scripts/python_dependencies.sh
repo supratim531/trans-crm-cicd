@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 virtualenv /home/ubuntu/env
 source /home/ubuntu/env/bin/activate
